@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Analyze</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta name="description" content="Welcome to Studio Analyze! Motivational, Informational and Lifestyle Videos for Creators.">
+<meta name="keywords" content="YouTube, Motivation, Content Creator, Studio Analyze, Lifestyle">
+<meta name="author" content="Studio Analyze">
+<meta property="og:title" content="Studio Analyze">
+<meta property="og:description" content="Amazing content for all creators and dreamers.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo.png">
+<meta property="og:url" content="https://yourwebsiteurl.com">
+<link rel="icon" href="favicon.ico">
+
+
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="lang-switcher">
+        <button onclick="setLanguage('en')">English</button>
+        <button onclick="setLanguage('hi')">हिंदी</button>
+      </div>
+      
+
+
+    <div id="preloader">
+        <div class="loader"></div>
+      </div>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <h3>Join our Family! 🎬</h3>
+          <p>Subscribe for latest videos & updates!</p>
+          <a href="https://www.youtube.com/@StudioAnalyze" target="_blank" class="btn">Subscribe</a>
+          <span class="close-btn" onclick="closePopup()">×</span>
+        </div>
+      </div>
+      
+      
+
+  <nav class="navbar">
+    <div class="logo">Studio Analyze</div>
+    <button class="theme-toggle" onclick="toggleTheme()">☀️</button>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span>Studio Analyze</span></h1>
+      <p>পৃথিবী মঞ্চ আর আমরা সবাই অভিনেতা
+    </p>
+      <a href="https://www.youtube.com/@StudioAnalyze" target="_blank"  class="btn">Subscribe Now</a>
+
+        <!-- Social Media Section -->
+      <section class="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/StudioAnalyze" target="_blank" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.youtube.com/@StudioAnalyze" target="_blank" class="youtube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com/studio_analyze" target="_blank" class="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@studioanalyze" target="_blank" class="tiktok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+  
+
+  
+  </header>
+  
+
+  <section class="video-preview reveal">
+  <h2>Latest Videos</h2>
+  <div id="videos" class="video-list"></div>
+</section>
+  
+  <section id="subscribe" class="subscribe reveal">
+    <h2>Join the Family!</h2>
+    <button onclick="subscribe()">Subscribe on YouTube</button>
+  </section>
+  <section class="stats reveal">
+    <div class="counter">
+      <h2 id="subs">0</h2>
+      <p>Subscribers</p>
+    </div>
+    <div class="counter">
+      <h2 id="videos">0</h2>
+      <p>Videos</p>
+    </div>
+    <div class="counter">
+      <h2 id="views">0</h2>
+      <p>Total Views</p>
+    </div>
+  </section>
+  <section class="testimonials reveal">
+  <h2>What People Say</h2>
+  <div class="testimonial-container">
+    <div class="testimonial">
+      <p>"This channel motivates me every day! 🔥"</p>
+      <h4>- Alex</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Informative and super well edited! 💯"</p>
+      <h4>- Priya</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Always something new to learn here! 🚀"</p>
+      <h4>- John</h4>
+    </div>
+  </div>
+</section>
+<section class="contact reveal">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <section class="about reveal">
+    <h2>About Me</h2>
+    <p>Hey! I'm a creator focused on delivering inspiring, informative, and fun content. Subscribe and join the journey!</p>
+  </section>
+
+  
+
+
+  <footer>
+    <p>© 2025 My YouTube Channel. All rights reserved.</p>
+  </footer>
+  <button id="backToTop" title="Go to top">↑</button>
+
+</body>
+</html>
+
+
